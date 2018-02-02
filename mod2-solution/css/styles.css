@@ -1,23 +1,29 @@
 
 *{box-sizing: border-box;}
+#chic{background: #d59898}
+#sush{background: #e5d198}
+#beef{background: #c14543}
+
+p{margin: 25px 0 0 0}
+
+body{padding: 15px}
 
 h1{text-align: center;}
 
 .title {float: right;
-background: red;
-border: 3px solid black;
+border: 2px solid black;
 padding:  3px 3px 3px 3px;
 color:white;
 font-family: "Calibri"}
 
 .box {
+	overflow: auto;
+	border: 3px solid black;
 	margin: 6px 3px 6px 3px;
-	padding: 0 5px 0 5px; 
 	box-sizing: border-box;
 	float: left;
 	width: 300px;
-	height: 200px;
-	border :4px red;
+	height: auto;
 	background: gray;
 	width: 31%
 	
