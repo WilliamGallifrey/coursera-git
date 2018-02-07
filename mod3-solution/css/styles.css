@@ -4,21 +4,19 @@
 #sush{background: #A8CD1B}
 #beef{background: #74AFAD}
 
+.navbar-light.navbar-toggler{border-color: white;}
 
-h1{text-align: center;}
-
-.title {
-	position: absolute;
-	right: 0;
-	top: 0;
+a.navbar-brand.webtitle {
+	text-align: center;
 	padding:  3px 3px 3px 3px;
-	color:#3B3738;
+	color: white;
+	font-size: 1.8em;
 	font-family: "Calibri"
 }
 
 .box {margin-bottom: 10px;
 	position: relative;
-	padding: 35px 10px 0 10px;
+	padding: 5px 10px 0 10px;
 	overflow: auto;
 	border: 1px solid #7E8F7C;
 	height: auto;
@@ -33,6 +31,11 @@ h1{text-align: center;}
 .webtitle {
 	color: white;
 	font-size: 2em;
+}
+
+.nav-item a {
+
+	font-size: 1.4em;
 }
 
 
